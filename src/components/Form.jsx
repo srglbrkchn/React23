@@ -8,7 +8,7 @@ function Form(props) {
       <input type="text" placeholder="Username" />
       <input type="password" placeholder="Password" />
       <input type="password" placeholder="Confirm Password" />
-      <button type="submit">Register</button>
+      <button type="submit">{registered ? "Login" : "Register"} </button>
     </form>
   );
 }
