@@ -1,6 +1,8 @@
 import React from "react";
 
-function Form() {
+function Form(props) {
+  const registered = props.userIsRegistered;
+
   return (
     <form className="form">
       <input type="text" placeholder="Username" />
